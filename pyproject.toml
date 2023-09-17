@@ -3,17 +3,25 @@ name = "OptimalPy"
 version = "0.0.0.0"
 description = "Optimization capabilities."
 authors = ["David Gayman <drg.developer.2@gmail.com>"]
+homepage = "https://github.com/dg-developer/OptimalPy"
+repository = "https://github.com/dg-developer/OptimalPy"
+documentation = "https://github.com/dg-developer/OptimalPy"
 readme = "ReadMe.md"
 license = "Apache License 2.0"
 packages = [
     { include = "optimal" }
 ]
+keywords = ["optimal", "optimizatoin", "optimizing", "math", "mathematical", "simple", "geometry", "algebra", "calculus", "vector"]
+classifiers = [
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Software Development :: Libraries"
+]
 
 [tool.poetry.scripts]
-main     = "main:main"
+main = "main:main"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
 
 [build-system]
 requires = ["poetry-core"]
